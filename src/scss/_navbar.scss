@@ -1,0 +1,28 @@
+nav {
+  background-color: white;
+  .navbar {
+    max-width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    .logo {
+      img {
+        width: 100%;
+      }
+    }
+    .pages {
+      display: flex;
+      width: 450px;
+      justify-content: space-between;
+      a {
+        color: #0d2d3e;
+        transition: all 300ms;
+        &:hover {
+          color: #14435c;
+        }
+      }
+    }
+  }
+}
